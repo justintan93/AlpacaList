@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#E6E6E6"
+    android:focusable="false"
+    android:orientation="vertical" >
+    
+ <EditText
+     android:id="@+id/recipe_url_text"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:hint="@string/add_recipe_hint"
+     android:focusable="true"
+     android:focusableInTouchMode="true"
+     android:inputType="textUri"
+   />
+  <Button 
+     android:id="@+id/rsubmit"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/create_button"
+     android:layout_margin="5dp"
+     android:background="#00CC00"
+     android:minHeight="0dp"
+     android:minWidth="0dp"
+     android:layout_gravity="center"
+     />
+ <Button 
+    	android:id="@+id/addr_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_button"
+        android:layout_margin="5dp"
+        android:background="#FF0000"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:layout_gravity="center"
+    />
+    
+</LinearLayout>

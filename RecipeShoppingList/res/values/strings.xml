@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alpaca List</string>
+    <string name="action_settings">Settings</string>
+    <string name="create_button">Create</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="new_button">New</string>
+    <string name="title_activity_list_screen">ListScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="add_ingredient_hint">Ingredient Name</string>
+    <string name="add_ingredient_quantity_hint">Ingredient Amount </string>
+    <string name="submit_button">Submit</string>
+    <string name="add_recipe_hint">Paste the recipe url here</string>
+    <string name="retry_button">Retry</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="time_out">Retrieval took too long! Please go somewhere with better internet.</string>
+    <string name="close_button">Close</string>
+    <string name="serving_size">Serving Size</string>
+    <string name="continue_button">Continue</string>
+    <string name="sort_button">Sort</string>
+
+</resources>
